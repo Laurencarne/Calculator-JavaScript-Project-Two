@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h2>Calculator</h2>
+
+    <form class="calculator">
+
+      <div class="first_number">
+        <label for="first_number"></label>
+        <input type="number" name="first_number" id="first_number">
+      </div>
+
+      <div class="operation">
+        <button type="button" name="add" id="add">+</button>
+        <button type="button" name="subtract" id="subtract">-</button>
+        <button type="button" name="multiply" id="multiply">&times;</button>
+        <button type="button" name="divide" id="divide">&divide;</button>
+      </div>
+
+      <div class="second_number">
+        <label for="second_number"></label>
+        <input type="number" name="second_number" id="second_number">
+      </div>
+
+      <div class="submit">
+          <button type="button" name="equals" id="equals">=</button>
+      </div>
+
+    </form>
+
+    <p id="answer"></p>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

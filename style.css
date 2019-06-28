@@ -1,0 +1,33 @@
+body {
+  font-family: "Courier New", Courier, monospace
+  /* font-family: fantasy; */
+}
+
+.operation {
+  margin: 10px;
+}
+
+form {
+  margin: 10px;
+  display: inline-block;
+}
+
+.submit {
+  margin: 10px;
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+#answer {
+  margin: 0px;
+}
+
+.selectedButton {
+  background-color: red;
+}
